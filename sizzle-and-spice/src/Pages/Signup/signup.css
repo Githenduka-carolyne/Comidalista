@@ -1,0 +1,81 @@
+.form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form1-side {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    width: 40%;
+    height: max-content;
+    padding: 5px 0;
+    margin-top: 50px;
+}
+
+.signin-heading {
+    display: grid;
+    place-content: center;
+    color: #E5572E;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.forms-holder {
+    display: grid;
+    place-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+.form-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    line-height: 1.5;
+
+
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+}
+label{
+    color: #fff;
+}
+.account{
+color: #fff;
+}
+
+
+.submit {
+    padding: 9px;
+    width: 100%;
+    border: none;
+    background-color: #E5572E;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.account a {
+    color: #E5572E;
+}
+
+.form-image-holder {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: auto;
+}
+.error-info p{
+    color: #fff;
+}

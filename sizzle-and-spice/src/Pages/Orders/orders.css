@@ -1,0 +1,11 @@
+.customers-order{
+    color: #fff;
+}
+.button {
+    padding: 10px;
+    border: none;
+    background-color: #E5572E;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 15px;
+}

@@ -1,0 +1,51 @@
+ .herosection {
+     height: 70vh;
+     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/herophoto.jpeg);
+     background-size: cover;
+     background-position: center;
+     display: grid;
+     place-content: center;
+ }
+
+ .hero-textbox {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     width: 50vw;
+     height: 30vh;
+     gap: 2rem;
+     color: #fff;
+     line-height: 2rem;
+     /* border: 2px solid red; */
+     
+ }
+
+ .hero-maintitle {
+     font-size: 50px;
+     text-transform: capitalize;
+    
+ }
+
+ .hero-subtitle {
+     font-size: 20px;
+     text-transform: capitalize; 
+     font-weight: 500;                                                                                                        
+ }
+
+ .button-holder {
+     display: flex;
+     flex-direction: row;
+     gap: 2rem;
+ }
+
+ .button {
+     padding: 9px;
+     border: none;
+     background-color: #E5572E;
+     border-radius: 7px;
+     font-weight: bold;
+     font-size: 15px;
+     
+ }

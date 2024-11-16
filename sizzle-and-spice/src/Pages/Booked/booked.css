@@ -1,0 +1,27 @@
+.booked-order {
+    color: #fff;
+}
+.view-booking{
+    color: #fff;
+}
+.button {
+    padding: 10px;
+    border: none;
+    background-color: #E5572E;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.booked-container{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.error{
+    color: #fff;
+}
+.table-container .table-heading{
+    color: #fff;
+}

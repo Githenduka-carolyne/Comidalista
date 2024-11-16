@@ -1,0 +1,33 @@
+.review-section {
+    padding: 2rem 3rem;
+}
+.review-cards-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2.5rem;
+}
+.review-form-side{
+    /* border: 2px solid red; */
+    width: 45%;
+}
+.review-image-side{
+    display: flex;
+    justify-items: end;
+    /* border: 2px solid red; */
+    width: 50%;
+}
+.review-image-holder {
+    height: 50vh;
+    
+}
+
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+/* .error p{
+    color: #fff;
+} */

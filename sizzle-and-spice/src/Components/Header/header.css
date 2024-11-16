@@ -1,0 +1,30 @@
+.Header{
+    background-color: black;
+    padding: 15px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.logo-title{
+    color: #fff;
+}
+
+.header-list a{
+   list-style: none;
+   text-decoration: none;
+   
+}
+.header-items {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 20px;
+    color: #fff;
+    
+}
+.header-items a{
+    color: #fff;
+}
+

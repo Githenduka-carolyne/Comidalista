@@ -1,0 +1,230 @@
+
+.contacts-container {
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/herophoto.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-content: center;
+}
+
+.contacts-maintitle {
+    color: #fff;
+    font-size: 40px;
+}
+
+.contact-textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-textbox h4 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.contact-textbox p {
+    text-align: center;
+    color: #fff;
+}
+
+.contact-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    gap: 2rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+.contact-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    width: 200px;
+    height: 150px;
+    font-size: 13px;
+    color: #000;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 1rem;
+}
+.card-title {
+    color: #000;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+.icon-holder {
+    display: grid;
+    place-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.contact-card p {
+    font-size: 15px;
+}
+
+/* .title {
+    font-weight: bolder;
+    color: #000;
+} */
+
+.form-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 30px;
+}
+
+.form-container1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-side {
+    width: 40%;
+    margin: auto;
+}
+
+.map-side {
+    margin: auto;
+}
+
+.map {
+    height: 100%;
+    width: 100%;
+
+}
+
+.social-account-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #fff; */
+    margin-top: 20px;
+}
+
+.social-handles-container {
+    display: flex;
+    place-content: center;
+    align-items: center;
+    gap: 4rem;
+    color: #fff;
+}
+
+.social-handles {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    place-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-holder {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    font-size: 30px;
+    color: #E5572E;
+}
+
+@media screen and (max-width:49.93em) {
+    .social-handles {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:43.46em) {
+    .messagebtn {
+        width: 6rem;
+        padding: 10px;
+        font-size: 13px;
+        margin-left: 30px;
+
+    }
+}
+
+@media screen and (max-width:40.37em) {
+    .form-map {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-side {
+        width: 80%;
+    }
+
+    .maps {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:36em) {
+    .social-account-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-handles-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-handles h4 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:31.06em) {
+    .banner-part h2 {
+        font-size: 45px;
+    }
+
+    .banner-part p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:30.81em) {
+    .social-handles-container {
+        gap: 0.5rem;
+    }
+}
+
+.map-side {
+    height: 40vh;
+
+}
+
+@media screen and (max-width:27.75em) {
+    .map-side {
+        height: 25vh;
+
+    }
+}
+
+@media screen and (max-width:16.06em) {
+    .social-handles {
+        font-size: 10px;
+    }
+}
+.social-icon-details{
+    display: grid;
+    place-content: center;
+}

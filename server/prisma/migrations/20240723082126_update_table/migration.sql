@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "bookings_table" ALTER COLUMN "time" SET DATA TYPE TEXT,
+ALTER COLUMN "date" SET DATA TYPE TEXT;

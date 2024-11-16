@@ -1,0 +1,63 @@
+.admin-button{
+    padding: 0 4.7rem;
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    gap: 2rem;
+}
+
+.button {
+    padding: 10px;
+    border: none;
+    background-color: #E5572E;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.group1-container {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    gap: 1rem;
+    row-gap: 2rem;
+}
+
+.food-cards {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    background-color: #D9D9D9;
+    width: 200px;
+    height: 200px;
+    font-size: 10px;
+    color: #000;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+.food-heading {
+    font-size: 20px;
+    display: grid;
+    place-content: center;
+}
+
+.food-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.delbutton {
+    padding: 2px;
+    background-color: #E5572E;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.delete-edit-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
